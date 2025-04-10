@@ -23,9 +23,9 @@ wheels = [
 ]
 
 [[package]]
-name = "pdf-to-images"
+name = "pdf-into-images"
 version = "0.3.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "click" },
     { name = "pymupdf" },

@@ -1,5 +1,5 @@
 [project]
-name = "pdf_to_images"
+name = "pdf_into_images"
 version = "0.3.0"
 description = "Converts a PDF into a JPEG image-per-page."
 readme = "README.md"
@@ -8,3 +8,17 @@ dependencies = [
     "click>=8.1.8",
     "pymupdf>=1.25.4",
 ]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+pdf_into_images = "pdf_into_images.cli:main"
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
