@@ -1,7 +1,7 @@
 [project]
-name = "scripts"
-version = "0.1.0"
-description = "Add your description here"
+name = "pdf_to_images"
+version = "0.3.0"
+description = "Converts a PDF into a JPEG image-per-page."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
