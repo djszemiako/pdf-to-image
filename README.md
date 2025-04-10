@@ -10,4 +10,3 @@ Files created:
 ./sample.1.jpeg
 ./sample.2.jpeg
 ```
-```
