@@ -1,6 +1,6 @@
 import click
 
-from lib.main import pdf_into_images
+from main import pdf_into_images
 
 
 @click.command()
